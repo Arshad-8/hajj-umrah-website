@@ -268,10 +268,10 @@ export default function Register() {
                   <ArrowLeft className="w-4 h-4" />
                 </button>
               ) : (
-                <button className="btn-primary px-8 py-3 text-sm">
+                <Link to="/dashboard" className="btn-primary px-8 py-3 text-sm">
                   <CheckCircle className="w-5 h-5" />
                   تأكيد التسجيل
-                </button>
+                </Link>
               )}
             </div>
           </div>
