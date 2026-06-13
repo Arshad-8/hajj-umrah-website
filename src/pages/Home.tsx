@@ -24,9 +24,6 @@ export default function Home() {
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-gray-900 leading-tight mb-6">
                 منصة
-                <span className="relative inline-block">
-                  <span style={{ color: 'var(--color-primary)' }}> كوادر</span>
-                </span>
                 <br />
                 للكوادر العاملة
               </h1>
@@ -135,7 +132,7 @@ export default function Home() {
               {
                 icon: Users,
                 title: 'تسجيل واعتماد العمال',
-                desc: 'نظام متكامل لتسجيل العمال مع بيانات الهوية والإقامة والمهنة والخبرات والدورات',
+                desc: 'نظام متكامل لتسجيل العمال م�� بيانات الهوية والإقامة والمهنة والخبرات والدورات',
                 link: '/register',
                 color: 'from-emerald-500 to-emerald-600',
                 bgColor: 'bg-emerald-50',
