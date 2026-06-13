@@ -64,12 +64,8 @@ export default function Home() {
               <div className="relative w-full aspect-square max-w-lg mx-auto">
                 {/* Main circle */}
                 <div className="absolute inset-8 rounded-full" style={{ background: 'linear-gradient(135deg, rgba(12,74,62,0.1) 0%, rgba(200,168,78,0.1) 100%)' }} />
-                <div className="absolute inset-16 rounded-full bg-gradient-to-br from-[var(--color-primary)] to-[var(--color-primary-light)] opacity-90 flex items-center justify-center shadow-2xl">
-                  <div className="text-center text-white p-8">
-                    <span className="text-7xl font-black block mb-2">ك</span>
-                    <span className="text-2xl font-bold block mb-1">كوادر</span>
-                    <span className="text-sm opacity-80">المنصة الوطنية</span>
-                  </div>
+                <div className="absolute inset-16 rounded-full bg-white opacity-95 flex items-center justify-center shadow-2xl p-10">
+                  <img src="/logo.png" alt="شعار منصة سما" className="w-full h-full object-contain" />
                 </div>
 
                 {/* Floating icons */}
@@ -130,7 +126,7 @@ export default function Home() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
-            <h2 className="section-title">الخدمات الرئيسية للمنصة</h2>
+            <h2 className="section-title">الخدمات الرئ��سية للمنصة</h2>
             <p className="section-subtitle mx-auto">
               منصة متكاملة توفر جميع الخدمات اللازمة لإدارة الكوادر العاملة بشكل نظامي وفعال
             </p>

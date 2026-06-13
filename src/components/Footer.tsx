@@ -6,7 +6,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-[var(--color-primary-dark)] text-white relative overflow-hidden">
+    <footer className="bg-primary-dark text-white relative overflow-hidden">
       {/* Decorative top */}
       <div className="absolute top-0 left-0 right-0 h-1" style={{ background: 'linear-gradient(90deg, #C8A84E, #1A6B5A, #C8A84E)' }} />
 
