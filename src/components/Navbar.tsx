@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, ChevronDown } from 'lucide-react';
+import { Menu, X, ChevronDown, UserCircle } from 'lucide-react';
 
 const navItems = [
   { label: 'الرئيسية', path: '/' },
@@ -80,6 +80,14 @@ export default function Navbar() {
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center gap-3">
+            <Link
+              to="/dashboard"
+              className="flex items-center gap-2 text-sm font-medium text-[var(--color-primary)] hover:bg-emerald-50 px-3 py-2 rounded-lg transition-colors"
+              title="حسابي"
+            >
+              <UserCircle className="w-6 h-6" />
+              <span className="hidden lg:inline">حسابي</span>
+            </Link>
             <Link to="/login" className="btn-outline text-sm px-5 py-2.5">
               تسجيل الدخول
             </Link>
@@ -143,6 +151,10 @@ export default function Navbar() {
               )
             ))}
             <div className="pt-3 space-y-2">
+              <Link to="/dashboard" onClick={() => setIsOpen(false)} className="flex items-center justify-center gap-2 w-full text-center text-sm font-medium text-[var(--color-primary)] border border-[var(--color-primary)] rounded-lg py-2.5">
+                <UserCircle className="w-5 h-5" />
+                حسابي
+              </Link>
               <Link to="/login" onClick={() => setIsOpen(false)} className="btn-outline w-full text-center block text-sm">
                 تسجيل الدخول
               </Link>
