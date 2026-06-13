@@ -6,7 +6,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-[var(--color-primary-dark)] text-white relative overflow-hidden">
+    <footer className="bg-primary-dark text-white relative overflow-hidden">
       {/* Decorative top */}
       <div className="absolute top-0 left-0 right-0 h-1" style={{ background: 'linear-gradient(90deg, #C8A84E, #1A6B5A, #C8A84E)' }} />
 
@@ -15,11 +15,9 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 rounded-xl flex items-center justify-center" style={{ background: 'rgba(255,255,255,0.15)' }}>
-                <span className="text-white font-black text-xl">ك</span>
-              </div>
+              <img src="/logo.png" alt="شعار منصة سما" className="w-20 h-20 object-contain" />
               <div>
-                <h3 className="text-xl font-bold">كوادر</h3>
+                <h3 className="text-xl font-bold">سما</h3>
                 <p className="text-xs text-white/60">المنصة الوطنية للكوادر العاملة</p>
               </div>
             </div>
@@ -92,7 +90,7 @@ export default function Footer() {
                 <div className="w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center">
                   <Phone className="w-4 h-4" />
                 </div>
-                <span dir="ltr">+966 11 XXX XXXX</span>
+                <span dir="ltr">+966 000000000</span>
               </a>
               <div className="flex items-center gap-3 text-sm text-white/70">
                 <div className="w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center">

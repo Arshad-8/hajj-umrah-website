@@ -24,9 +24,6 @@ export default function Home() {
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-gray-900 leading-tight mb-6">
                 منصة
-                <span className="relative inline-block">
-                  <span style={{ color: 'var(--color-primary)' }}> كوادر</span>
-                </span>
                 <br />
                 للكوادر العاملة
               </h1>
@@ -62,14 +59,8 @@ export default function Home() {
             {/* Hero Visual */}
             <div className="relative hidden lg:block">
               <div className="relative w-full aspect-square max-w-lg mx-auto">
-                {/* Main circle */}
-                <div className="absolute inset-8 rounded-full" style={{ background: 'linear-gradient(135deg, rgba(12,74,62,0.1) 0%, rgba(200,168,78,0.1) 100%)' }} />
-                <div className="absolute inset-16 rounded-full bg-gradient-to-br from-[var(--color-primary)] to-[var(--color-primary-light)] opacity-90 flex items-center justify-center shadow-2xl">
-                  <div className="text-center text-white p-8">
-                    <span className="text-7xl font-black block mb-2">ك</span>
-                    <span className="text-2xl font-bold block mb-1">كوادر</span>
-                    <span className="text-sm opacity-80">المنصة الوطنية</span>
-                  </div>
+                <div className="absolute inset-8 flex items-center justify-center">
+                  <img src="/logo.png" alt="شعار منصة سما" className="w-full h-full object-contain" />
                 </div>
 
                 {/* Floating icons */}
@@ -141,7 +132,7 @@ export default function Home() {
               {
                 icon: Users,
                 title: 'تسجيل واعتماد العمال',
-                desc: 'نظام متكامل لتسجيل العمال مع بيانات الهوية والإقامة والمهنة والخبرات والدورات',
+                desc: 'نظام متكامل لتسجيل العمال م�� بيانات الهوية والإقامة والمهنة والخبرات والدورات',
                 link: '/register',
                 color: 'from-emerald-500 to-emerald-600',
                 bgColor: 'bg-emerald-50',
