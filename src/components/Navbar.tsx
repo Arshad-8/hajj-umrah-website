@@ -31,12 +31,10 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl flex items-center justify-center shadow-lg" style={{ background: 'linear-gradient(135deg, #0C4A3E 0%, #1A6B5A 100%)' }}>
-              <span className="text-white font-black text-lg md:text-xl">ك</span>
-            </div>
+            <img src="/logo.png" alt="شعار منصة سما" className="w-10 h-10 md:w-12 md:h-12 object-contain" />
             <div className="hidden sm:block">
-              <h1 className="text-lg md:text-xl font-black text-[var(--color-primary)] leading-tight">كوادر</h1>
-              <p className="text-[10px] text-gray-500 leading-tight -mt-0.5">المنصة الوطنية</p>
+              <h1 className="text-lg md:text-xl font-black text-[var(--color-primary)] leading-tight">سما</h1>
+              <p className="text-[10px] text-gray-500 leading-tight -mt-0.5">منصة عامل</p>
             </div>
           </Link>
 

@@ -15,11 +15,11 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 rounded-xl flex items-center justify-center" style={{ background: 'rgba(255,255,255,0.15)' }}>
-                <span className="text-white font-black text-xl">ك</span>
+              <div className="w-12 h-12 rounded-xl flex items-center justify-center bg-white p-1">
+                <img src="/logo.png" alt="شعار منصة سما" className="w-full h-full object-contain" />
               </div>
               <div>
-                <h3 className="text-xl font-bold">كوادر</h3>
+                <h3 className="text-xl font-bold">سما</h3>
                 <p className="text-xs text-white/60">المنصة الوطنية للكوادر العاملة</p>
               </div>
             </div>
