@@ -31,7 +31,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <img src="/logo.png" alt="شعار منصة سما" className="w-20 h-20 md:w-24 md:h-24 object-contain" />
+            <img src="/logo.png" alt="شعار منصة سما" className="w-16 h-16 md:w-20 md:h-20 object-contain" />
           </Link>
 
           {/* Desktop Nav */}
