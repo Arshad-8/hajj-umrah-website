@@ -15,7 +15,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <img src="/logo.png" alt="شعار منصة سما" className="w-20 h-20 object-contain" />
+              <img src="/logo.png" alt="شعار منصة سما" className="w-12 h-12 object-contain" />
               <div>
                 <h3 className="text-xl font-bold">سما</h3>
                 <p className="text-xs text-white/60">المنصة الوطنية للكوادر العاملة</p>
