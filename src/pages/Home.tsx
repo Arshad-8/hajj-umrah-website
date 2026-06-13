@@ -62,9 +62,7 @@ export default function Home() {
             {/* Hero Visual */}
             <div className="relative hidden lg:block">
               <div className="relative w-full aspect-square max-w-lg mx-auto">
-                {/* Main circle */}
-                <div className="absolute inset-8 rounded-full" style={{ background: 'linear-gradient(135deg, rgba(12,74,62,0.1) 0%, rgba(200,168,78,0.1) 100%)' }} />
-                <div className="absolute inset-16 rounded-full bg-white opacity-95 flex items-center justify-center shadow-2xl p-10">
+                <div className="absolute inset-8 flex items-center justify-center">
                   <img src="/logo.png" alt="شعار منصة سما" className="w-full h-full object-contain" />
                 </div>
 
