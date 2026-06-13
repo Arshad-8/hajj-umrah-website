@@ -84,6 +84,9 @@ export default function Navbar() {
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center gap-3">
+            <Link to="/login" className="btn-outline text-sm px-5 py-2.5">
+              تسجيل الدخول
+            </Link>
             <Link to="/register" className="btn-primary text-sm px-5 py-2.5">
               تسجيل عامل جديد
             </Link>
@@ -143,7 +146,10 @@ export default function Navbar() {
                 </Link>
               )
             ))}
-            <div className="pt-3">
+            <div className="pt-3 space-y-2">
+              <Link to="/login" onClick={() => setIsOpen(false)} className="btn-outline w-full text-center block text-sm">
+                تسجيل الدخول
+              </Link>
               <Link to="/register" onClick={() => setIsOpen(false)} className="btn-primary w-full text-center block text-sm">
                 تسجيل عامل جديد
               </Link>
