@@ -132,7 +132,7 @@ export default function Home() {
               {
                 icon: Users,
                 title: 'تسجيل واعتماد العمال',
-                desc: 'نظام متكامل لتسجيل العمال م�� بيانات الهوية والإقامة والمهنة والخبرات والدورات',
+                desc: 'نظام متكامل لتسجيل العمال من بيانات الهوية والإقامة والمهنة والخبرات والدورات',
                 link: '/register',
                 color: 'from-emerald-500 to-emerald-600',
                 bgColor: 'bg-emerald-50',
