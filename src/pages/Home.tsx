@@ -124,7 +124,7 @@ export default function Home() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
-            <h2 className="section-title">الخدمات الرئ��سية للمنصة</h2>
+            <h2 className="section-title">الخدمات الرئيسية للمنصة</h2>
             <p className="section-subtitle mx-auto">
               منصة متكاملة توفر جميع الخدمات اللازمة لإدارة الكوادر العاملة بشكل نظامي وفعال
             </p>
